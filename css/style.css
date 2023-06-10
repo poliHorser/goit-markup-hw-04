@@ -42,6 +42,8 @@ body {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 .header-nav {
@@ -55,9 +57,10 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    color: #4d5ae5;
+    color: #404bbf;
     margin-right: 76px;
     letter-spacing: 0.03em;
+    position: relative;
 
 }
 
@@ -223,7 +226,7 @@ ul{
 }
 
 .section-four-icon{
-    
+    position: absolute;
         left: 0%;
         right: 0%;
         top: 0%;
