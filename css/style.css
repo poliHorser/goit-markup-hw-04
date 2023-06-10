@@ -31,6 +31,7 @@ body {
 }
 
 
+
 .header-div{
     display: flex;
     align-items: center;
@@ -148,7 +149,8 @@ ul{
     background-color: #2E2F42;
     padding: 188px 0;
     text-align: center;
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7) 70%), url(../images/bgim.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bgim.jpg);
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -168,6 +170,7 @@ ul{
     max-width: 496px;
    margin: 0 auto;
    margin-bottom: 48px;
+
 }
 
 .hero-buton{
@@ -237,11 +240,16 @@ ul{
 
 .section-wo-im{
     width: 264px;
-        height: 112px;
-        left: 0px;
-        top: 0px;
-        background: #F4F4FD;
-            border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    background: #F4F4FD;
+    border-radius: 4px;
+
 }
 
 .main-second-content {
