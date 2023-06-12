@@ -239,6 +239,10 @@ ul{
             gap: 24px;
 }
 
+.four-ul{
+    display: flex;
+}
+
 .section-wo-im{
     width: 264px;
     display: flex;
