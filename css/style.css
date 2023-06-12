@@ -233,7 +233,7 @@ ul{
 .section-four-icon{
     position: absolute;
     fill: var(--white);
-    
+
 }
 
 .four-ul{
@@ -254,7 +254,7 @@ ul{
 
 }
 
-.four-a :hover, .four-a:focus {
+.four-a:hover, .four-a:focus {
     background-color: #404bbf;
 }
 
