@@ -64,7 +64,7 @@ body {
     color: #404bbf;
     margin-right: 76px;
     letter-spacing: 0.03em;
-   
+    position: relative;
 }
 
 .header-menu-item::after{
