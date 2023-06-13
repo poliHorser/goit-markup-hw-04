@@ -558,7 +558,7 @@ ul{
     padding-bottom: 120px;
 }
 
-.main-portfolio-button{
+.main-portfolio-but{
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -628,8 +628,7 @@ ul{
 
 .main-link{
     display: block;
-    transition: box-shadow 250ms;
-    transition:cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(100%);
 }
 
@@ -656,8 +655,7 @@ ul{
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: transform 250ms;
-   transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-all{
