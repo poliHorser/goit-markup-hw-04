@@ -11,6 +11,8 @@ img {
     --title-color: #2E2F42;
     --back-but: #4D5AE5;
     --white: #f4f4fd;
+    --footer: #FFFFFF;
+
 }
 
 p, h1,h2,h3,h4,h5,h6 {
@@ -601,7 +603,7 @@ ul{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--white);
+    color: var(--footer);
     margin-bottom: 16px;
 
 }
