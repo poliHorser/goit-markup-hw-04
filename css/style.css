@@ -281,19 +281,17 @@ ul{
     align-items: center;
     justify-content: center;
     margin: auto;
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       
     
 
 }
 
-.four-a:hover  {
+.four-a:hover, .four-a:focus {
     background-color: #404bbf;
 }
 
-.four-a:focus{
-    background-color: #404bbf;
-}
+
 
 .four-li{
     width: 40px;
@@ -314,7 +312,8 @@ ul{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     position: absolute;
-    margin-bottom: 72px;
+    margin-bottom: 120px;
+    margin-top: 120px;
 
 }
 .five-ul {
@@ -717,6 +716,7 @@ ul{
      transform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow:0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }

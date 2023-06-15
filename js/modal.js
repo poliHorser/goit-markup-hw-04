@@ -12,3 +12,9 @@
     refs.modal.classList.toggle("is-hidden");
   }
 })();
+
+is - hidden{
+  opacity: 0; 
+  visibility: hidden;
+  pointer-events: none; 
+}
