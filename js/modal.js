@@ -13,8 +13,3 @@
   }
 })();
 
-is - hidden{
-  opacity: 0; 
-  visibility: hidden;
-  pointer-events: none; 
-}
