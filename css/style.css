@@ -198,7 +198,8 @@ ul{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    height: 600px;
+    margin: 0 auto;
     
 }
 
@@ -354,10 +355,7 @@ ul{
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.five-icon{
-    fill: currentColor;
-    
-}
+
 
 
 
@@ -377,6 +375,13 @@ ul{
     color: #404bbf;
     border-color: #404bbf;
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.five-link:hover .five-icon,
+.five-link:focus .five-icon{
+    color: #404bbf;
+    border-color: #404bbf;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
  
 .section-wo-im{
